@@ -14,5 +14,5 @@ def random_noise():
 def hypotenuse(x, b):
     return math.sqrt(x**2 + y**2)
 # One way to do it.
-def stop():
+if __name__=='__main__':
     print("TRY TO STOP THIS FROM BEING PRINTED IN FILE a.py WITHOUT DELETING THIS PRINT STATEMENT")
